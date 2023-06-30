@@ -1,0 +1,177 @@
+:root {
+  --primary-band-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --succes-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #2e2f4266;
+  --hero-background-color: #2e2f42b2;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
+  --primary-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  background-color: var(--white-background-color);
+}
+
+.footer-main {
+  background-color: var(--dark-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  color: var(--light-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+header {
+  background-color: var(--white-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.h-one {
+  color: var(--white-background-color);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.h-two {
+  color: var(--dark-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.goal-p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.h-three {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.h-two-portfolio {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.welcome-page {
+  background-color: var(--dark-color);
+  color: var(--white-background-color);
+  text-align: center;
+}
+
+.main-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: var(--primary-band-color);
+  color: var(--white-background-color);
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: var(--light-color);
+  color: var(--primary-band-color);
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
+}
+
+.logo-main {
+  color: var(--primary-band-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+header .logo-part-one {
+  color: var(--dark-color);
+}
+
+footer .logo-part-one {
+  color: var(--light-color);
+}
+
+.contacts-link {
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.menu-list-properties {
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.menu-list-properties:hover,
+.menu-list-properties:focus {
+  color: var(--pressed-state-color);
+}
+
+.section-employee {
+  background-color: var(--light-color);
+}
+
+.employee-card {
+  background-color: var(--white-background-color);
+}
+
+.contacts-main {
+  font-style: normal;
+}
