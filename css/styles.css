@@ -191,11 +191,11 @@ header {
   display: flex;
 }
 
-.header-nav.list {
+.header-nav .list {
   display: flex;
 }
 
-.contacts-main.list {
+.contacts-main .list {
   display: flex;
   flex-direction: row-reverse;
 }
