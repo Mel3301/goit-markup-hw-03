@@ -186,3 +186,12 @@ header {
   display: flex;
   gap: 8px;
 }
+
+.header-nav .list {
+  display: flex;
+}
+
+.contacts-main .list {
+  display: flex;
+  flex-direction: row-reverse;
+}
