@@ -187,11 +187,15 @@ header {
   gap: 8px;
 }
 
-.header-nav .list {
+.header-nav {
   display: flex;
 }
 
-.contacts-main .list {
+.header-nav.list {
+  display: flex;
+}
+
+.contacts-main.list {
   display: flex;
   flex-direction: row-reverse;
 }
