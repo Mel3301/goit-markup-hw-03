@@ -8,10 +8,10 @@ header {
 
     .header-nav {
       display: flex;
+      align-items: center;
 
       .header-list {
         display: flex;
-        margin-left: 76px;
         margin-right: 332px;
         gap: 40px;
 
@@ -21,6 +21,7 @@ header {
           font-weight: 500;
           line-height: 1.5;
           letter-spacing: 0.02em;
+          padding: 24px 0;
 
           &:hover,
           &:focus {
@@ -37,6 +38,7 @@ header {
         text-transform: uppercase;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        margin-right: 76px;
 
         .header-logo-part {
           color: $dark-color;
