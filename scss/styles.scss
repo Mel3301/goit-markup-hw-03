@@ -1,0 +1,128 @@
+$primary-band-color: #4d5ae5;
+$pressed-state-color: #404bbf;
+$dark-color: #2e2f42;
+$succes-color: #31d0aa;
+$text-color: #434455;
+$subtle-text-color: #8e8f99;
+$accent-color: #e7e9fc;
+$light-color: #f4f4fd;
+$modal-overlay-color: #2e2f4266;
+$hero-background-color: #2e2f42b2;
+$white-background-color: #ffffff;
+$modal-background-color: #fcfcfc;
+$primary-font: "Roboto", sans-serif;
+
+body {
+  font-family: $primary-font;
+  color: $text-color;
+  background-color: $white-background-color;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  align-items: center;
+  width: 1158px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 0 15px;
+}
+
+@import "./block/header";
+@import "./block/footer";
+
+// Стили для UL \ Link
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+// Стили для заглавлений и параграфов
+
+.h-one {
+  color: $white-background-color;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.h-two {
+  color: $dark-color;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.goal-p {
+  color: $text-color;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.h-three {
+  color: $dark-color;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.h-two-portfolio {
+  color: $dark-color;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+// Кнопки
+
+.main-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: $primary-band-color;
+  color: $white-background-color;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  &:hover,
+  &:focus {
+    background-color: $pressed-state-color;
+  }
+}
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: $light-color;
+  color: $primary-band-color;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  &:hover,
+  &:focus {
+    background-color: $pressed-state-color;
+    color: $white-background-color;
+  }
+}
+
+// Основной контент первый лист
+
+.welcome-page {
+  background-color: $dark-color;
+  color: $white-background-color;
+  text-align: center;
+}

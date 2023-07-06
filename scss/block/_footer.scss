@@ -1,0 +1,25 @@
+.footer-main {
+  background-color: $dark-color;
+  padding: 0 15px;
+
+  .footer-logo-main {
+    color: $primary-band-color;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+    .footer-logo-part {
+      color: $light-color;
+    }
+  }
+
+  .footer-text {
+    font-size: 16px;
+    color: $light-color;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+  }
+}
