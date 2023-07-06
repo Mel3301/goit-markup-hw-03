@@ -175,3 +175,14 @@ footer .logo-part-one {
 .contacts-main {
   font-style: normal;
 }
+
+/* hw 3 */
+header {
+  border-bottom: 1px solid var(--accent-color);
+  background: var(--white-background-color);
+}
+
+.header-navigation-container {
+  display: flex;
+  gap: 8px;
+}
