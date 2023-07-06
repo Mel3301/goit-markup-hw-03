@@ -18,17 +18,17 @@ section {
   padding: 0 15px;
 }
 
-header {
+.header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
-header .header-div {
+.header .header-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0 15px;
 }
-header .header-div .header-nav {
+.header .header-div .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,14 +36,14 @@ header .header-div .header-nav {
       -ms-flex-align: center;
           align-items: center;
 }
-header .header-div .header-nav .header-list {
+.header .header-div .header-nav .header-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 332px;
   gap: 40px;
 }
-header .header-div .header-nav .header-list .header-menu-list-properties {
+.header .header-div .header-nav .header-list .header-menu-list-properties {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -51,10 +51,10 @@ header .header-div .header-nav .header-list .header-menu-list-properties {
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
-header .header-div .header-nav .header-list .header-menu-list-properties:hover, header .header-div .header-nav .header-list .header-menu-list-properties:focus {
+.header .header-div .header-nav .header-list .header-menu-list-properties:hover, .header .header-div .header-nav .header-list .header-menu-list-properties:focus {
   color: #404bbf;
 }
-header .header-div .header-nav .header-logo-main {
+.header .header-div .header-nav .header-logo-main {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -64,25 +64,25 @@ header .header-div .header-nav .header-logo-main {
   letter-spacing: 0.03em;
   margin-right: 76px;
 }
-header .header-div .header-nav .header-logo-main .header-logo-part {
+.header .header-div .header-nav .header-logo-main .header-logo-part {
   color: #2e2f42;
 }
-header .header-div .header-contacts {
+.header .header-div .header-contacts {
   font-style: normal;
 }
-header .header-div .header-contacts .header-contacts-list {
+.header .header-div .header-contacts .header-contacts-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
 }
-header .header-div .header-contacts .header-contacts-list .contacts-link {
+.header .header-div .header-contacts .header-contacts-list .contacts-link {
   color: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-header .header-div .header-contacts .header-contacts-list .contacts-link:hover, header .header-div .header-contacts .header-contacts-list .contacts-link:focus {
+.header .header-div .header-contacts .header-contacts-list .contacts-link:hover, .header .header-div .header-contacts .header-contacts-list .contacts-link:focus {
   color: #404bbf;
 }
 
