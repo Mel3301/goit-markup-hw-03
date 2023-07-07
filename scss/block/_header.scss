@@ -1,6 +1,9 @@
 .header {
   background-color: $white-background-color;
   border-bottom: 1px solid $accent-color;
+  height: 72px;
+  display: flex;
+  justify-content: center;
 
   .header-div {
     display: flex;
@@ -14,6 +17,7 @@
         display: flex;
         margin-right: 332px;
         gap: 40px;
+        align-items: flex-start;
 
         .header-menu-list-properties {
           color: $dark-color;

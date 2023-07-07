@@ -14,13 +14,16 @@ body {
   margin: 0 auto;
 }
 
-section {
-  padding: 0 15px;
-}
-
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .header .header-div {
   display: -webkit-box;
@@ -42,6 +45,9 @@ section {
   display: flex;
   margin-right: 332px;
   gap: 40px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .header .header-div .header-nav .header-list .header-menu-list-properties {
   color: #2e2f42;
@@ -165,6 +171,7 @@ section {
   cursor: pointer;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  height: 56px;
 }
 .main-button:hover, .main-button:focus {
   background-color: #404bbf;
@@ -186,7 +193,76 @@ section {
 }
 
 .welcome-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 1440px;
   background-color: #2e2f42;
   color: #ffffff;
+  padding: 188px 0;
   text-align: center;
+}
+.welcome-page .h-one {
+  max-width: 496px;
+  margin: 0 auto;
+}
+.welcome-page .main-button {
+  display: block;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
+  margin: 48px auto 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.our-goal {
+  padding: 120px 0;
+}
+.our-goal .goal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 15px;
+}
+.our-goal .goal-container .goal-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.our-goal .goal-container .goal-list .goal-list-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc((100% - 72px) / 4);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  gap: 24px;
+}
+.our-goal .goal-container .goal-list .goal-list-li .goal-p {
+  margin-top: 8px;
 }/*# sourceMappingURL=styles.css.map */
