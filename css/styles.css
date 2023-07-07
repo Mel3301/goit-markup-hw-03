@@ -12,6 +12,7 @@ body {
           align-items: center;
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -29,7 +30,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 15px;
 }
 .header .header-div .header-nav {
   display: -webkit-box;
@@ -94,9 +94,10 @@ body {
 
 .footer-main {
   background-color: #2e2f42;
-  padding: 0 15px;
+  padding: 100px 0;
 }
 .footer-main .footer-logo-main {
+  display: inline-block;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -104,11 +105,13 @@ body {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 .footer-main .footer-logo-main .footer-logo-part {
   color: #f4f4fd;
 }
 .footer-main .footer-text {
+  max-width: 264px;
   font-size: 16px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
@@ -235,17 +238,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 15px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .our-goal .goal-container .goal-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 24px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 .our-goal .goal-container .goal-list .goal-list-li {
   display: -webkit-box;
@@ -259,10 +259,120 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  gap: 24px;
+}
+.our-goal .goal-container .goal-list .goal-list-li .h-three {
+  margin-bottom: 8px;
 }
 .our-goal .goal-container .goal-list .goal-list-li .goal-p {
-  margin-top: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-two {
+  padding: 120px 0;
+}
+.section-two .do-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section-two .do-container .h-two {
+  margin-bottom: 72px;
+  text-align: center;
+}
+.section-two .do-container .images-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.section-two .do-container .images-list .images-work {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: calc((100% - 48px) / 3);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.section-employee {
+  padding: 120px 0;
+  background: #f4f4fd;
+}
+.section-employee .employee-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section-employee .employee-container .h-two {
+  margin-bottom: 72px;
+  text-align: center;
+}
+.section-employee .employee-container .employee-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.section-employee .employee-container .employee-list .employee-card {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: calc((100% - 72px) / 4);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+          box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.section-employee .employee-container .employee-list .employee-card .employee-card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 232px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  padding: 32px 16px;
+}
+.section-employee .employee-container .employee-list .employee-card .employee-card-text .h-three {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.section-employee .employee-container .employee-list .employee-card .employee-card-text .goal-p {
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

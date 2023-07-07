@@ -1,8 +1,9 @@
 .footer-main {
   background-color: $dark-color;
-  padding: 0 15px;
+  padding: 100px 0;
 
   .footer-logo-main {
+    display: inline-block;
     color: $primary-band-color;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -10,6 +11,7 @@
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 
     .footer-logo-part {
       color: $light-color;
@@ -17,6 +19,7 @@
   }
 
   .footer-text {
+    max-width: 264px;
     font-size: 16px;
     color: $light-color;
     letter-spacing: 0.02em;
