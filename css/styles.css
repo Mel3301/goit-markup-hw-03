@@ -189,10 +189,14 @@ body {
   cursor: pointer;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-button:hover, .portfolio-button:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .welcome-page {
@@ -375,4 +379,41 @@ body {
 }
 .section-employee .employee-container .employee-list .employee-card .employee-card-text .goal-p {
   text-align: center;
+}
+
+.projects-section {
+  padding: 96px 0 120px 0;
+}
+.projects-section .projects-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.projects-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+  row-gap: 48px;
+}
+.projects-card .projects-card-list {
+  width: calc((100% - 48px) / 3);
+}
+.projects-card .projects-card-list .projects-card-list-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.projects-card .projects-card-list .projects-card-list-content .h-two-portfolio {
+  margin-bottom: 8px;
 }/*# sourceMappingURL=styles.css.map */

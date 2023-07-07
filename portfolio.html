@@ -15,57 +15,57 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <!-- header -->
-      <header class="header">
-        <div class="header-div container">
-          <nav class="header-nav">
-            <!-- logo -->
+    <!-- header -->
+    <header class="header">
+      <div class="header-div container">
+        <nav class="header-nav">
+          <!-- logo -->
 
-            <a class="header-logo-main link" href="./index.html"
-              >Web<span class="header-logo-part">Studio</span></a
-            >
-            <!-- menu -->
-            <!-- использовать ли тут меню, или лучше юл? по семантике вроде как лучше меню? -->
-            <ul class="list header-list">
-              <li class="header-menu-list">
-                <a class="header-menu-list-properties link" href="./index.html"
-                  >Studio</a
-                >
-              </li>
-              <li class="header-menu-list">
-                <a
-                  class="header-menu-list-properties link"
-                  href="./portfolio.html"
-                  >Portfolio</a
-                >
-              </li>
-              <li class="header-menu-list">
-                <a class="header-menu-list-properties link" href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- contacts -->
-          <address class="header-contacts">
-            <ul class="list header-contacts-list">
-              <li class="contacts-item">
-                <a class="contacts-link link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="contacts-item">
-                <a class="contacts-link link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
-      </header>
-      <main>
-        <section>
-          <h1>Our Projects</h1>
-          <ul class="list">
+          <a class="header-logo-main link" href="./index.html"
+            >Web<span class="header-logo-part">Studio</span></a
+          >
+          <!-- menu -->
+          <!-- использовать ли тут меню, или лучше юл? по семантике вроде как лучше меню? -->
+          <ul class="list header-list">
+            <li class="header-menu-list">
+              <a class="header-menu-list-properties link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="header-menu-list">
+              <a
+                class="header-menu-list-properties link"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-menu-list">
+              <a class="header-menu-list-properties link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- contacts -->
+        <address class="header-contacts">
+          <ul class="list header-contacts-list">
+            <li class="contacts-item">
+              <a class="contacts-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+      <section class="projects-section">
+        <div class="projects-container container">
+          <h1 class="visually-hidden">Our Projects</h1>
+          <ul class="projects-list list">
             <li><button class="portfolio-button" type="button">All</button></li>
             <li>
               <button class="portfolio-button" type="button">Web Site</button>
@@ -79,8 +79,8 @@
             </li>
           </ul>
 
-          <ul class="list">
-            <li>
+          <ul class="projects-card list">
+            <li class="projects-card-list">
               <a class="link" href=""
                 ><img
                   src="./images/bankingappinterfaceconcept.jpg"
@@ -88,11 +88,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Banking App Interface Concept</h2>
-                <p class="goal-p">App</p></a
-              >
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Banking App Interface Concept</h2>
+                  <p class="goal-p">App</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="projects-card-list">
               <a class="link" href=""
                 ><img
                   src="./images/cashlesspayment.jpg"
@@ -100,11 +102,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Cashless Payment</h2>
-                <p class="goal-p">Marketing</p>
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Cashless Payment</h2>
+                  <p class="goal-p">Marketing</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="projects-card-list">
               <a class="link" href=""
                 ><img
                   src="./images/meditationapp.jpg"
@@ -112,11 +116,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Meditation App</h2>
-                <p class="goal-p">App</p>
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Meditation App</h2>
+                  <p class="goal-p">App</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="projects-card-list">
               <a class="link" href=""
                 ><img
                   src="./images/taxiservice.jpg"
@@ -124,11 +130,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Taxi Service</h2>
-                <p class="goal-p">Marketing</p>
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Taxi Service</h2>
+                  <p class="goal-p">Marketing</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="projects-card-list">
               <a class="link" href=""
                 ><img
                   src="./images/screenillustrations.jpg"
@@ -136,11 +144,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Screen Illustrations</h2>
-                <p class="goal-p">Design</p>
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Screen Illustrations</h2>
+                  <p class="goal-p">Design</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="projects-card-list">
               <a class="link" href=""
                 ><img
                   src="./images/onlinecourses.jpg"
@@ -148,11 +158,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Online Courses</h2>
-                <p class="goal-p">Marketing</p></a
-              >
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Online Courses</h2>
+                  <p class="goal-p">Marketing</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="projects-card-list">
               <a class="link" href=""
                 ><img
                   src="./images/instagramstoriesconcept.jpg"
@@ -160,11 +172,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Instagram Stories Concept</h2>
-                <p class="goal-p">Design</p></a
-              >
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Instagram Stories Concept</h2>
+                  <p class="goal-p">Design</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="projects-card-list">
               <a class="link" href="">
                 <img
                   src="./images/organicfood.jpg"
@@ -172,11 +186,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Organic Food</h2>
-                <p class="goal-p">Web Site</p></a
-              >
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Organic Food</h2>
+                  <p class="goal-p">Web Site</p>
+                </div>
+              </a>
             </li>
-            <li>
+            <li class="projects-card-list">
               <a class="link" href="">
                 <img
                   src="./images/freshcoffee.jpg"
@@ -184,14 +200,18 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="h-two-portfolio">Fresh Coffee</h2>
-                <p class="goal-p">Web Site</p></a
-              >
+                <div class="projects-card-list-content">
+                  <h2 class="h-two-portfolio">Fresh Coffee</h2>
+                  <p class="goal-p">Web Site</p>
+                </div>
+              </a>
             </li>
           </ul>
-        </section>
-      </main>
-      <footer class="footer-main">
+        </div>
+      </section>
+    </main>
+    <footer class="footer-main">
+      <div class="footer-container container">
         <a class="footer-logo-main link" href="./index.html"
           >Web<span class="footer-logo-part">Studio</span></a
         >
@@ -201,7 +221,7 @@
           sales for your business with digital <br />
           marketing & growth solutions.
         </p>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
